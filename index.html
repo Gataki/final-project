@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<meta charset="utf-8"> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	
+	<link rel="stylesheet" href="style/main.css">
+	
+	<link rel="stylesheet"  href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css">
+      	  
+	<title> Animal Tech </title>
+	
+	<link href='https://fonts.googleapis.com/css?family=PT+Serif+Caption|Roboto' rel='stylesheet' type='text/css'> 
+
+	</head>
+	<body>
+
+		<div class="intro">
+			<h1>What's In a Phrase</h1>
+		</div>
+		
+		<div class="content">
+			<h2>Global Warming vs Climate Change</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique dui odio, et faucibus velit porttitor vitae. Morbi dignissim laoreet lectus, ut consequat dolor accumsan et. Nunc ut tincidunt massa. Vivamus in nulla sed elit pulvinar pretium. Proin euismod vehicula magna, quis porta augue condimentum at. Vestibulum pharetra sem id faucibus rhoncus. Vivamus nulla elit, tristique sit amet lacinia a, sodales sit amet purus. Proin vehicula feugiat interdum. Praesent congue consectetur ligula, nec interdum sapien convallis eget. Duis in sem bibendum, congue dui nec, bibendum augue. Suspendisse potenti. Ut nec vulputate lorem. Aenean a mollis tortor, a rutrum arcu.</p>
+		</div>
+		
+
+<div class="content2">
+			<h2>Content 2</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique dui odio, et faucibus velit porttitor vitae. Morbi dignissim laoreet lectus, ut consequat dolor accumsan et. Nunc ut tincidunt massa. Vivamus in nulla sed elit pulvinar pretium. Proin euismod vehicula magna, quis porta augue condimentum at. Vestibulum pharetra sem id faucibus rhoncus. Vivamus nulla elit, tristique sit amet lacinia a, sodales sit amet purus. Proin vehicula feugiat interdum. Praesent congue consectetur ligula, nec interdum sapien convallis eget. Duis in sem bibendum, congue dui nec, bibendum augue. Suspendisse potenti. Ut nec vulputate lorem. Aenean a mollis tortor, a rutrum arcu.</p>
+		</div>
+
+<div class="content3">
+			<h2>Content 3</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique dui odio, et faucibus velit porttitor vitae. Morbi dignissim laoreet lectus, ut consequat dolor accumsan et. Nunc ut tincidunt massa. Vivamus in nulla sed elit pulvinar pretium. Proin euismod vehicula magna, quis porta augue condimentum at. Vestibulum pharetra sem id faucibus rhoncus. Vivamus nulla elit, tristique sit amet lacinia a, sodales sit amet purus. Proin vehicula feugiat interdum. Praesent congue consectetur ligula, nec interdum sapien convallis eget. Duis in sem bibendum, congue dui nec, bibendum augue. Suspendisse potenti. Ut nec vulputate lorem. Aenean a mollis tortor, a rutrum arcu.</p>
+		</div>
+		
+<div class="content4">
+			<h2>Content 4</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique dui odio, et faucibus velit porttitor vitae. Morbi dignissim laoreet lectus, ut consequat dolor accumsan et. Nunc ut tincidunt massa. Vivamus in nulla sed elit pulvinar pretium. Proin euismod vehicula magna, quis porta augue condimentum at. Vestibulum pharetra sem id faucibus rhoncus. Vivamus nulla elit, tristique sit amet lacinia a, sodales sit amet purus. Proin vehicula feugiat interdum. Praesent congue consectetur ligula, nec interdum sapien convallis eget. Duis in sem bibendum, congue dui nec, bibendum augue. Suspendisse potenti. Ut nec vulputate lorem. Aenean a mollis tortor, a rutrum arcu.</p>
+		</div>
+		
+<footer>
+		By Mauhe Almeida
+</footer>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript">
+			(function() {
+				var windowH = $(window).height(),
+					introEl = $('div.intro'),
+					introHeadingH = introEl.find('h1').height();
+				introEl.css('padding', (windowH - introHeadingH)/2 + 'px 0');
+				$(document).on('scroll', function() {
+					introEl.slideUp(1000, function() { $(document).off('scroll'); });
+				});
+			})();
+		</script>
+
+		
+	</body>
+</html>
