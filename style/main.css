@@ -31,11 +31,19 @@
 				padding-right: 20px;
 			}
 			.content2{
-				height: 1000px;
+				height: 600px;
 				padding: 100px 0;
 				width: 60%;
 				margin: 0 auto;
 				
+			}
+			.princess {
+				float: right;
+				padding-left: 50px;
+				padding-right: 20px;
+			}
+			#map { 
+			    height: 800px; 
 			}
 			.content3 {
 				height: 1000px;
