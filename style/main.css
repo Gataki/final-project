@@ -3,27 +3,32 @@
 				padding: 0;
 			}
 			body {
-				font-family: Roboto, Arial, sans-serif;
+				font-family: 'Lora', serif;
 				background-color: #fff;
 			}
-			title {
-				text-align:center;
-			}
 			.intro {
-				background: url('images/header.jpg') no-repeat;
+				background: url('http://mauhealmeida.com/final-project/images/header.jpg') no-repeat;
 				background-position: 50% 50%;
 				background-size: cover;
 			}
 			.intro h1 {
-				text-align: center;
+				text-align: left;
+				padding-left: 50px;
+				width: 420px;
 				text-transform: uppercase;
-				font-size: 7em;
-				color: #000;
+				font-family: 'Inknut Antiqua', serif;
+				font-size: 3em;
+				color: #fff;
 			}
 			.content {
-				height: 1000px;
+				height: 500px;
 				padding: 100px 0;
 				
+			}
+			.dragonpng {
+				float: left;
+				padding-left: 50px;
+				padding-right: 20px;
 			}
 			.content2{
 				height: 1000px;
